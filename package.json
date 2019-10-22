@@ -1,0 +1,55 @@
+{
+  "name": "esriWebMap",
+  "version": "0.1.0",
+  "description": "A leaflet plugin to display ArcGIS Web Map.",
+  "main": "",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "lintFix": "vue-cli-service lint --fix"
+  },
+  "dependencies": {
+    "arcgis-to-geojson-utils": "^1.0.1",
+    "date-fns": "^2.6.0",
+    "esri-leaflet": "^2.2.3",
+    "esri-leaflet-heatmap-feature-layer": "^2.0.0-beta.1",
+    "esri-leaflet-renderers": "^2.0.6",
+    "esri-leaflet-vector": "https://github.com/CityOfPhiladelphia/esri-leaflet-vector#a82cfeec87dfd99b2a9bcf30dfd56bf44eccc77e",
+    "leaflet": "^1.4.0",
+    "leaflet-omnivore": "https://github.com/CityOfPhiladelphia/leaflet-omnivore#f072195b03f7930690d9cbccb9375f0eda50fd41",
+    "leaflet-vectoricon": "^0.1.0",
+    "leaflet.heat": "^0.1.3",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.0.5",
+    "@vue/cli-plugin-eslint": "^4.0.5",
+    "@vue/cli-service": "^4.0.5",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.5.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "jest": "^24.9.0",
+    "jest-serializer-vue": "^2.0.2",
+    "jest-transform-stub": "^2.0.0",
+    "testcafe": "^1.6.0",
+    "testcafe-reporter-html": "^1.4.4",
+    "testcafe-vue-selectors": "^3.1.0",
+    "vue-jest": "^3.0.5",
+    "vue-template-compiler": "^2.6.9",
+    "webpack-visualizer-plugin": "^0.1.11"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
